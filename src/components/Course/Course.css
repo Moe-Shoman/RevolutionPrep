@@ -1,0 +1,53 @@
+:root {
+  --class-bg-color: rgba(220, 0, 0, .8);
+  --exam-bg-color: rgba(0, 0, 180, .7);
+}
+
+.Course {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 35vh;
+  padding: 10px;
+  color: #fff;
+  width: 20%;
+  min-width: 165px;
+  position: relative;
+}
+
+.Class {
+  background-color: var(--class-bg-color);
+}
+
+.Exam {
+  background-color: var(--exam-bg-color);
+}
+
+.title {
+  font-size: 44px;
+}
+
+.date {
+  font-size: 20px;
+}
+
+.lrn-btn {
+  width: 50%;
+  height: 40px;
+  position: absolute;
+  bottom: 5%;
+  cursor: pointer;
+}
+
+.Exam-span {
+  font-size: 36px;
+}
+
+.Exam-btn {
+  color: var(--exam-bg-color);
+}
+
+.Class-btn {
+  color: var(--class-bg-color);
+}
